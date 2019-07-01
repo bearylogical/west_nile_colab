@@ -5,13 +5,16 @@
 
 # Summary
 
-In this project, we aim to ...
+This project takes place in two parts: <br/>(1) a Kaggle competition where we have to predict the occurence of West Nile virus given certain features, and <br/>(2) a scenario where we make predictions that the City of Chicago can use when it decides where to spray pesticides.<br/>
+
+For the predictive scenario, we have decided to predict the number of mosquitoes that will be caught in labelled traps as a way to assist in pesticide spray decisions.
 
 ## Problem Statement
->hello
+> 1. How can we predict the presence of West Nile virus in an area?
+> 2. How can we predict the number of mosquitoes in an area?
 
 ## Executive Summary
->there
+>hello there
 
 ## Conclusions and Recommendations
 >general kenobi
