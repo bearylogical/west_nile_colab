@@ -5,19 +5,17 @@
 
 # Summary
 
-This project takes place in two parts: <br/>(1) a Kaggle competition where we have to predict the occurence of West Nile virus given certain features, and <br/>(2) a scenario where we make predictions that the City of Chicago can use when it decides where to spray pesticides.<br/>
-
-For the predictive scenario, we have decided to predict the number of mosquitoes that will be caught in labelled traps as a way to assist in pesticide spray decisions.
+This project has the following objective <br/>(1) we would like to predict the occurence of West Nile virus given certain features.
 
 ## Problem Statement
 > 1. How can we predict the presence of West Nile virus in an area?
-> 2. How can we predict the number of mosquitoes in an area?
+
 
 ## Executive Summary
->hello there
+We perform data cleaning on the weather features and exploratory data analysis on the spray and distribution of the virus. We then used a variable timelag to impute the weather features on each observation. GridSearch is done on a series of estimators including LogisticRegression and ranked accordingly using the recall score of the minority class (WnvPresent = 1) as the target.
 
 ## Conclusions and Recommendations
->general kenobi
+We decide on extra trees classifier as our best classification model (for Kaggle submission) as it gives us the best ROC AUC score at 0.856.
 
 ---
 
@@ -32,18 +30,6 @@ Our notebooks are meant to be read in the following order:
 |4.|04_Modelling.ipynb|Creating a benchmark model for Kaggle submission based on our transformed data|
 |5.|05_weather_lag.ipynb|Mapping weather data to different time/date lags|
 |6.|06_model_optimization.ipynb|Attempt to find an optimized model with the best parameters|
-|7.|07_YuBin_DataTransformation_ForRegression.ipynb|Data transformation for modelling for our problem statement|
-|8.|08_YuBin_Modelling_Benchmark_ForRegression.ipynb|Creating a benchmark model for predict the number of mosquitoes|
+
 
 ---
-
-# Analysis & Findings
-
-## On Weather
-It's over
-## On Spray data
-Anakin,
-## On Location data
-I have
-## On Model Creation
-the higher ground
